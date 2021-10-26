@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dd546846</string>
+    <string name="strBtn1">버튼입니다.</string>
+    <string name="hint_id">아이디를 입력하세요.</string>
+    <string name="hint_pass">비밀번호를 입력하세요.</string>
+    <string name="hint_pass_confirm">한번 더 입력하세요.</string>
+    <string name="hint_nickname">닉네임을 입력하세요.</string>
+</resources>
