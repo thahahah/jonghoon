@@ -92,7 +92,7 @@
     </FrameLayout>
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/btn_login"
         android:layout_width="80dp"
         android:layout_height="60dp"
         android:backgroundTint="#6DF870"
@@ -104,7 +104,7 @@
         android:translationY="320dp" />
 
     <Button
-        android:id="@+id/join"
+        android:id="@+id/btn_register"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_weight="0"

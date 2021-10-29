@@ -66,7 +66,6 @@
     </FrameLayout>
 
     <Button
-        android:id="@+id/login"
         android:layout_width="80dp"
         android:layout_height="60dp"
         android:backgroundTint="#6DF870"
@@ -78,14 +77,13 @@
         android:translationY="320dp" />
 
     <Button
-        android:id="@+id/join"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_weight="0"
         android:backgroundTint="#6DF870"
         android:fontFamily="@font/archivo_black"
         android:includeFontPadding="true"
-        android:text="회원가입"
+        android:text="성공"
         android:textColor="#000000"
         android:textSize="18sp"
         android:translationX="-455dp"

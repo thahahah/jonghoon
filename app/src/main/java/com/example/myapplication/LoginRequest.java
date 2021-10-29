@@ -7,19 +7,18 @@ import com.android.volley.toolbox.StringRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RegisterRequest extends StringRequest {
+public class LoginRequest extends StringRequest {
 
     // 서버 URL 설정 ( PHP 파일 연동 )
-    final static String URL = "http://skwhdgns111.ivyro.net/Register.php";
+    final static String URL = "http://skwhdgns111.ivyro.net/Login.php";
     private Map<String, String> map;
 
-    public RegisterRequest(String userID, String userPassword, String userName, Response.Listener<String> listener) {
+    public LoginRequest(String userID, String userPassword, Response.Listener<String> listener) {
         super(Method.POST, URL, listener, null);
 
         map = new HashMap<>();
         map.put("userID", userID);
         map.put("userPassword",userPassword);
-        map.put("userName", userName);
     }
 
     @Override
